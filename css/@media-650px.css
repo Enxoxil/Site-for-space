@@ -1,0 +1,110 @@
+@media (max-width: 650px){
+    .header__content{
+        text-align: center;
+    }
+    .header__title{
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .header__title span {
+        font-size: 60px;
+    }
+    .header__text{
+        justify-content: center;
+        font-size: 18px;
+
+    }
+    .header__text p{
+        padding: 0 10px;
+    }
+    .header__btn{
+        font-size: 18px;
+        line-height: 24px;
+        width: 80%;
+    }
+    .header__description{
+        display: block;
+    }
+    
+    .header__description-text{
+        width: 100%;
+        text-align: center;
+    }
+    .header__description-text + .header__description-text{
+        margin-left: 0;
+        margin-top: 20px;
+        
+    }
+    .title{
+        padding: 50px 0;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .about_item{
+        padding-bottom: 50px;
+    }
+    .about__table-tr:first-child{
+        display: none;
+    }
+    
+    .about__table-td{
+        display: block;
+        text-align: right;
+        border-bottom: 1px solid #fff;
+        padding: 10px 15px 10px 15px;
+    }
+    .about__table-td:last-child{
+        border: none;
+    }
+    .about__table-td span{
+        display: inline-block;
+        
+    }
+    /* .about__table-td::before{
+        content: attr(aria-lable);
+        text-align: center;
+    } */
+    .about__table-td:nth-of-type(1)::before{
+        content: "время в пути";
+        float: left;
+
+    }
+    .about__table-td:nth-of-type(2)::before{
+        content: "расстояние";
+        float: left;
+
+    }
+    .about__table-td:nth-of-type(3)::before{
+        content: "в невесомости";
+        float: left;
+
+    }
+    .about__table-td:nth-of-type(4)::before{
+        content: "стоимость";
+        float: left;
+
+    }
+    .about__table-td:nth-of-type(5)::before{
+        content: "вернешься?";
+        float: left;
+
+    }
+    .about__table-tr + .about__table-tr{
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 400;
+        
+    }
+    .to-book{
+        background-position: top left;
+    }
+    .contacts__guarantees-img{
+        width: 100%;
+    }
+    .contacts__guarantees{
+        width: 100%;
+    }
+    .services__title{
+        font-size: 35px;
+    }
+}

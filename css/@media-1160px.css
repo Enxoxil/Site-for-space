@@ -1,0 +1,30 @@
+@media(max-width: 1160px){
+    .about_item{
+        display: block;
+        
+    }
+    .about__content{
+        width: 100%;
+
+    }
+    .about__content-text{
+        display: block;
+
+    }
+    .about__content-text p{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about__img{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .about{
+        text-align: center;
+    }
+    .about__table{
+        width: 100%;
+    }
+
+
+}

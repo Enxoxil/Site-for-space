@@ -1,0 +1,38 @@
+@media (max-width: 390px){
+    .header__top{
+        flex-wrap: wrap;
+
+    }
+    .menu, .login{
+        order: -1;
+    }
+    .phone{
+        width: 100%;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .menu__list{
+        padding-top: 110px;
+    }
+    .header__title{
+        font-size: 28px;
+
+    }
+    .header__title span{
+        font-size: 32px;
+    }
+    .header__btn{
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .services__btn--first::before{
+        bottom: 63px;
+    }
+    .contacts__guarantees-text {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+}

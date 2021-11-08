@@ -1,0 +1,16 @@
+@media (max-width: 720px){
+    .services{
+        padding-bottom: 50px;
+    }
+    .slider__inner{
+        padding: 0;
+    }
+    .slider__desc{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .info{
+        padding-bottom: 50px;
+    }
+
+}

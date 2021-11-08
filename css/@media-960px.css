@@ -1,0 +1,102 @@
+@media (max-width: 960px){
+    .header{
+        background-position: center right;
+    }
+    .header__top{
+        padding-top: 30px;
+    }
+    .header__content{
+        margin: 0 auto;
+    }
+    .header__description{
+        justify-content: center;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+    .menu__list{
+        transform: translateY(-150%);
+        transition: all .7s;
+        display: block;
+        position: absolute;
+        background-color: #010203;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 90px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .menu__list.active{
+        transform: translateY(0);
+    }
+    .menu__item{
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+    .menu__link{
+        display: block;
+    }
+    .phone,.login{
+        position: relative;
+        z-index: 20;
+    }
+    .how-to__box svg {
+        display: none;
+    }
+    .how-to__box-list{
+        display: block;
+        list-style: none;
+    }
+    .how-to__box-item{
+        text-align: left;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        margin-left: 20px;
+        position: relative;
+        border-left:1px solid #fff;
+    }
+    .how-to__box-item::before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    .how-to__box-item:last-child{
+        border-left: none;
+    }
+    .how-to__box-item{
+        transition: all .5s;
+    }
+    .how-to__box-item:hover{
+        font-size: 18px;
+        color: #036CCA;
+    }
+    .how-to__box-item:hover::before{
+        background-color: #036CCA;
+    }
+    .services__inner{
+        display: block;
+    }
+    .services__box-list{
+        width: 100%;
+        margin-bottom: 170px;
+        margin-right: 0;
+    }
+    .services__buttons{
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .slick-slide img {
+        max-width: 100%;
+    }
+
+}

@@ -1,0 +1,27 @@
+@media (max-width: 480px){
+    .title{
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .spec-offer__new-price{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    
+    .services__box-list{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .spec-offer__item-box{
+        padding: 20px 10px;
+        min-height: 300px;
+    }
+    .services__title, .to-book__title{
+        font-size: 23px;
+    }
+    .mask{
+        width: 100%;
+    }
+
+}
